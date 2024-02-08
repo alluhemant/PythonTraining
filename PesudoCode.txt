@@ -1,0 +1,119 @@
+1: Take your name as input and print it?
+   STEP1: START
+   STEP2: Declare a variable name "a".
+   STEP3: Read the input.
+   STEP4: Store the input into "a".
+   STEP5: Print "a".
+   STEP5: END
+   
+   
+2: Multiply 2 floating numbers?
+   STEP1: START
+   STEP2: Declare the variables "a" and "b" and "SUM".
+   STEP3: Assign the int values to "a" and "b".
+   STEP4: Do the multiply operation and store into "SUM".
+   STEP5: Print "SUM".
+   STEP6: END   
+   
+3: Swap the values a=10, b=20
+   STEP1: START
+   STEP2: Declare the variables "a" and "b" and "c".
+   STEP3: Read and Assign the values 10 and 20 to "a" and "b".
+   STEP4: Perform the operation c=a, a=b, b=c.
+   STEP5: Print the variables "a" and "b".
+   STEP6: END.
+   
+4. Convert Ferhnit to Celcius.
+   STEP1: 
+   START
+   STEP2:
+   Declare the variable "F" and "C".
+   STEP3:
+   Assign the value to "F".
+   STEP4:
+   Perform the convertion opeartion C=(F-32)*5/9
+   STEP5:
+   Print the variable "C".
+   STEP6:
+   END
+   
+5. Even or Odd.
+   STEP1: START.
+   STEP2: Declare the variale "Number".
+   STEP3: Read the Input.
+   STEP4: Store the Input into varaible "Number".
+   STEP5: Check if the given Number is Even or Odd by performing the check ---> 
+          if(Number % 2) == 0 then "Even" else "Odd".
+   STEP6: Print the output.
+   STEP7: END.
+
+6. Check the year is leap year or not.  if(year%4==0 and year%100!= 0 or year%400==0)
+   STEP1: START.
+   STEP2: Declare the variale "Year".
+   STEP3: Read the Input.
+   STEP4: Store the Input into varaible "Year".
+   STEP5: Check if the given Number is Leap year or not by performing the check ---> 
+          if(year%4==0 and year%100!= 0 or year%400==0) then "LeapYear" else "Not a LeapYear".
+   STEP6: Print the output.
+   STEP7: END.
+
+7. Factorial.
+   STEP1: START.
+   STEP2: Declare the variale "N".
+   STEP3: Read the positive integer as Input.
+   STEP4: Iterate from 1 to n using a for loop.
+   STEP5: Calculate the factorial of a number by N=N*i.
+   STEP6: Print the factorial output.
+   STEP7: END.
+    
+	N=0
+    for i range(N):
+       N=N*i
+	print(N)
+
+8. Armstrong.
+   STEP1: START.
+   STEP2: Declare the variale "Armstrong".
+   STEP3: Read the positive integer as Input.
+   STEP4: Store the Input into varaible "Armstrong".
+   STEP5: Calculate the length of the number.
+   STEP6: Summing the digits raised to the power of the length.
+          Ex: 123 ==> 1^3+2^3+3^3 which equals to 123.
+   STEP7: Comparing the sum with the original number to determine if it's an Armstrong number..
+   STEP8: END.
+
+9. Fibonacci Series.
+   STEP1: START.
+   STEP2: Intialize the varaibles Count=0 and "First=0" and "Second=1".
+   STEP3: Read the positive integers as Input.
+   STEP4: Store the Input into varaible "number".
+   STEP5: Perform the opeartion to print Fibonacci series Fn= Fn_1+ Fn_2.
+   STEP6: END.
+
+10.Reverse of a string.
+   STEP1: START.
+   STEP2: Intialize the varaible "String" and "Reverse_String".
+   STEP3: Read the input.
+   STEP4: Store the Input into varaible "String".
+   STEP5: Check the length of the "String".
+   STEP5: Perform the Reverse String Slicing and store into "Reverse_String".
+   STEP6: Print the output
+   STEP7: END.
+
+11. Palindrome.
+   STEP1: START.
+   STEP2: Intialize the varaible "String" and "Palindrome".
+   STEP3: Read the input.
+   STEP4: Store the Input into varaible "String".
+   STEP5: Check the length of the "String".
+   STEP5: Perform the Reverse String Slicing and store into "String".
+   STEP6: Print the output
+   STEP7: END.
+
+12. Check the number is prime number or not.
+    Step 1: Declare the flag and list.
+    Step 2: We will check the elements if it is divisible or not. 
+		   (num%i==0 then not a prime else prime)
+    Step 3: If divisible then flag =1 and break.
+    Step 4: If flag=0, then the element is appended to the list.
+    Step 5: Return the list.
